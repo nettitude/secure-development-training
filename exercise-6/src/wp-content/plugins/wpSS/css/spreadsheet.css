@@ -1,0 +1,245 @@
+body {
+ padding-right: 0px;
+ padding-left: 0px;
+ padding-bottom: 0px;
+ margin: 0px;
+ color: #333333;
+ padding-top: 0px;
+ background-color: #d8d8d8;
+ font-size: 12px;
+ line-height: 18px;
+ font-family: verdana, arial, helvetica, sans-serif;
+}
+p {
+ font-size: 12px;
+ line-height: 18px;
+ font-family: verdana, arial, helvetica, sans-serif;
+}
+ol {
+ font-size: 12px;
+ line-height: 18px;
+ font-family: verdana, arial, helvetica, sans-serif;
+}
+ul {
+ font-size: 12px;
+ line-height: 18px;
+ font-family: verdana, arial, helvetica, sans-serif;
+}
+th {
+ font-size: 12px;
+ line-height: 18px;
+ font-family: verdana, arial, helvetica, sans-serif;
+}
+td {
+ font-size: 12px;
+ line-height: 18px;
+ font-family: verdana, arial, helvetica, sans-serif;
+}
+tr {
+ font-size: 12px;
+ line-height: 18px;
+ font-family: verdana, arial, helvetica, sans-serif;
+}
+table {
+ font-size: 12px;
+ line-height: 18px;
+ font-family: verdana, arial, helvetica, sans-serif;
+}
+a:hover {
+ background-color: #ffff88;
+}
+
+DIV.spreadsheetEditor {
+    font-family: verdana, arial, helvetica, sans-serif;
+    background-color: #f7f7f7;
+    padding: 1px 0px 2px 0px;
+}
+
+DIV.spreadsheetScroll {
+    margin: 0;
+    overflow: auto;
+}
+
+DIV.barContainer {
+    PADDING: 0px; 
+    MARGIN: 0px; 
+    OVERFLOW: hidden; 
+}
+
+DIV.spreadsheetBars {
+    position: relative;
+}
+
+TABLE.spreadsheet { 
+    border-collapse: collapse;
+    table-layout: fixed; 
+    empty-cells: show;
+    background-color: #fdfdfd;
+}
+
+TABLE.spreadsheetBarCorner {
+    border-collapse: collapse;
+    table-layout: fixed; 
+    empty-cells: show;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    background-color: #AFAFAF;
+    background-color: #EFEFEF;
+    border: 1px solid #808080;
+    z-index: 130;
+    POSITION: static
+}
+
+TABLE.spreadsheetBarTop {
+    border-collapse: collapse;
+    table-layout: fixed; 
+    empty-cells: show;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    background-color: #AFAFAF;
+    background-color: #EFEFEF;
+    border: 1px solid #808080;
+    z-index: 120;
+    POSITION: relative; 
+}
+
+TABLE.spreadsheetBarLeft {
+    border-collapse: collapse;
+    table-layout: fixed; 
+    empty-cells: show;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    background-color: #AFAFAF;
+    background-color: #EFEFEF;
+    border: 1px solid #808080;
+    z-index: 110;
+    POSITION: relative;
+}
+
+TABLE.spreadsheet TD, TABLE.spreadsheet TH { 
+    overflow: hidden;
+    border: 1px solid #808080; 
+}
+
+TABLE.spreadsheetbartop th.spreadsheetbaritem {
+    cursor: e-resize;
+    border: 1px solid #808080; 
+}
+
+DIV.spreadsheetControls {
+    margin:  2px 0 2px 0;
+    border: 1px solid #000000;
+    padding: 2px 0 2px 0;
+    background-color: #CCCCCC;
+}
+DIV.spreadsheetFormulaBar {
+    margin:  2px 0 2px 0;
+    border: 1px solid #000000;
+    background-color: #CCCCCC;
+}
+
+DIV.spreadsheetformulabar textarea {
+ font-size: 12px;
+ overflow: hidden;
+ width: 80%;
+ font-family: verdana, arial, helvetica, sans-serif;
+ height: 1.5em;
+}
+
+DIV.spreadsheetCellActiveMain {
+ font-size: 0px;
+ z-index: 1;
+ position: absolute;
+ background-color: #333333;
+}
+
+DIV.spreadsheetRibbon td a {
+ color: black;
+}
+DIV.spreadsheetRibbon td a:visited {
+ color: black;
+}
+
+.spreadsheetLocation {
+ padding-left: 1em;
+ text-align: center;
+}
+
+.spreadsheetFormula {
+ border: 1px solid #333333;
+ padding-top: 2px;
+ padding-right: 0px;
+ padding-bottom: 2px;
+ padding-left: 0px;
+ margin: 2px 0.2em 0px 0px;
+ overflow: auto;
+ width: 250px;
+ font-family: verdana, arial, helvetica, sans-serif;
+ font-size: 12px;
+ height: 21px;
+ background-color: #ffffcc;
+}
+
+TD.spreadsheetCellActive {
+ background-color: #ffffcc! important;
+}
+
+TH.spreadsheetBarItemSelected {
+ background-color: #ffffcc;
+}
+
+SPAN.spreadsheetStyle {
+    margin-top: 0px;
+    margin-left: 5px;
+    padding-top: 0px;
+    line-height: 20px;
+}
+
+SPAN.spreadsheetStyle IMG {
+    width: 16px;
+    height: 16px;
+    VERTICAL-ALIGN: -15%;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    color: black;
+} 
+
+SPAN.spreadsheetStyle IMG:hover {
+}
+
+SPAN.spreadsheetStyle A {
+    width: 16px;
+    margin: 0;
+    border: 2px solid #dddddd;
+    text-decoration: none;
+    color: black;
+}
+
+SPAN.spreadsheetStyle A:hover {
+    border: 2px solid #ffff88; 
+}
+
+SPAN.spreadsheetStyleFont A {
+    font-family: "Lucinda Console", courier, monospace;
+}
+
+SPAN.spreadsheetStyleAlign A {
+}
+
+.locked { 
+    background-color: #dedede;
+}
+
+.auto_locked { 
+    background-color: #dedede;
+}
+
+.spreadsheetcellformatted {
+ display: none;
+}
+.spreadsheetcelldata {
+}

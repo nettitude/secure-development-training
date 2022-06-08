@@ -1,0 +1,81 @@
+DIV.spreadsheetEditor {
+    padding: 2px 2px 2px 2px;
+    background-color: #FFEE93;
+}
+
+DIV.spreadsheetScroll {
+    background-color: #FFEEB3;
+}
+
+TABLE.spreadsheetBarCorner, TABLE.spreadsheetBarTop, TABLE.spreadsheetBarLeft {
+    border: 1px solid #808080;
+    background-color: #FFCC73;
+}
+
+DIV.spreadsheetControls {
+    margin:  2px 0 2px 0;
+    border: 1px solid #808080;
+    padding: 2px 0 2px 0;
+    background-color: #FFCC73;
+}
+
+DIV.spreadsheetFormulaBar {
+    margin:  2px 0 2px 0;
+    border: 1px solid #808080;
+    background-color: #FFCC73;
+}
+
+.spreadsheetFormulaLabel {
+    padding-left: 1em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+SPAN.spreadsheetStyle {
+    margin-top: 0px;
+    margin-left: 5px;
+    padding-top: 0px;
+    line-height: 20px;
+}
+
+SPAN.spreadsheetStyle IMG {
+    width: 16px;
+    height: 16px;
+    VERTICAL-ALIGN: -15%;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    color: black;
+} 
+
+SPAN.spreadsheetStyle IMG:hover {
+    border: 1px solid #A2C5BA;
+    background-color: #FFFF88;
+}
+
+SPAN.spreadsheetStyle A {
+    width: 16px;
+    margin: 0;
+    border: 1px solid #A2C5BA;
+    text-decoration: none;
+    color: black;
+}
+
+SPAN.spreadsheetStyle A:hover {
+    background-color: #FFFF88;
+}}
+
+SPAN.spreadsheetStyleFont A {
+    font-family: "Lucinda Console", courier, monospace;
+}
+
+SPAN.spreadsheetStyleAlign A {
+}
+
+.locked { 
+    background-color: orange;
+}
+
+.auto_locked { 
+    background-color: orange;
+}

@@ -1,0 +1,86 @@
+/* dbx styles for mygallery */
+
+
+
+/* mgalleryoptions.php */
+
+#mgoptions fieldset {
+	margin-bottom: 1em;
+}
+
+#mgoptions h3 {
+	padding: 3px;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+#mgoptions div {
+	margin-top: .5em;
+}
+
+#mgoptions a.dbx-toggle, #mgoptions a.dbx-toggle-open:visited {
+	height: 22px;
+	width: 22px;
+	background-position: 0 -3px;
+}
+
+#mgoptions a.dbx-toggle-open, #mgoptions a.dbx-toggle-open:visited {
+	height: 22px;
+	width: 22px;
+	background-position: 0 -28px;
+}
+/* mygalleryexif.php */
+
+#mgexif fieldset {
+	margin-bottom: 1em;
+}
+
+#mgexif  h3 {
+	padding: 3px;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+#mgexif  div {
+	margin-top: .5em;
+}
+
+#mgexif a.dbx-toggle, #mgexif a.dbx-toggle-open:visited {
+	height: 22px;
+	width: 22px;
+	background-position: 0 -3px;
+}
+
+#mgexif a.dbx-toggle-open, #mgexif a.dbx-toggle-open:visited {
+	height: 22px;
+	width: 22px;
+	background-position: 0 -28px;
+}
+
+/* mygalleryadmin.php */
+
+#mgadmin fieldset {
+	margin-bottom: 1em;
+}
+
+#mgadmin  h3 {
+	padding: 3px;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+#mgadmin  div {
+	margin-top: .5em;
+}
+
+#mgadmin a.dbx-toggle, #mgadmin a.dbx-toggle-open:visited {
+	height: 22px;
+	width: 22px;
+	background-position: 0 -3px;
+}
+
+#mgadmin a.dbx-toggle-open, #mgadmin a.dbx-toggle-open:visited {
+	height: 22px;
+	width: 22px;
+	background-position: 0 -28px;
+}

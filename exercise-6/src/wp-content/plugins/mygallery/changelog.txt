@@ -1,0 +1,341 @@
+﻿Neu in Version 1.2.1
+
+- französische Sprachdatei aktualisiert
+- Bugfix: bei der Option "Originalbild virtuell verkleinern" wird der Link auf das Vollbild wieder korrekt erzeugt
+
+Neu in Version 1.2
+
+- deutsche Sprachdatei aktualisiert
+
+Neu in Version 1.2b6
+
+- Inlinebilder können auch als Link zu einer URL verwendet werden. Die Syntax folgt dabei dem bisherigen Schema (vgl. Dokumentation).
+   Für $pop kann neben 'fullscreen' und 'gal' jetzt  auch eine URL angegeben werden (beginnend mit http). 
+   Beispiel: [inspic=5,,http://www.wildbits.de,0]
+- Es ist jetzt auch möglich, nur eine Teilauswahl einer Galerie anzuzeigen: [mygal=$name($id1,$id2,$id3)]
+- Bugfix: Höhe und Breite der Zufallsbilder wird jetzt mit angegeben
+
+Neu in Version 1.2b5
+
+- Zufallsbilder können mittels LightboxJS angezeigt werden
+- Zufallsbilder können bei Verwendung der optionalen Templatdatei in ihrer jeweiligen Galerie angzeigt werden
+
+Neu in Version 1.2b4
+
+- Über einen optionalen Parameter lassen sich auch nur ganz bestimmte Galerien angeben, wenn die myshowgallerys() aufgerufen wird:
+	<?php myshowgallerys(array ('galeriname1','galeriename2')) ?>
+
+Neu in Version 1.2b3
+
+-Bugfix: Bilder einer Galerie, die von der Ansicht ausgeschlossen sind, werden nicht mehr in der Navigation berücksichtigt
+
+Neu in Version 1.2b2
+
+- Infoseite wurde hinzugefügt
+- Bugfix: [mygal=$name] wird jetzt korrekt entfernt, nach dem die Galerie bzw. das Bild plaziert wurde
+
+Neu in Version 1.2b1
+
+- Neue Option zur Einstellung der Qualität für Thumbnails
+- Alternative zur Darstellung der Galerieübersicht und der Galerien. Dazu wird eine Templatedatei im jeweiligen Theme benötigt. Zur Verfügung stehen die Befehle:
+
+	<?php myshowname('default_überschrift')?>
+	<?php myshowgallerys() ?>
+
+Bei der Verwendung dieser Methode empfiehlt es sich, die eingetragenen page_ids vorhandener Galerien zu löschen.
+	
+Neu in Version 1.1.5
+
+- Bugfix: Default Sortierung für Bilder wurde hinzugefügt
+
+Neu in Version 1.1.4
+
+- Bugfix: Galerienamen mit Unterstrich werden wieder erkannt
+
+Neu in Version 1.1.3
+
+- Bugfix: Seite x von y wird jetzt richtig übersetzt angezeigt. Der Fehler in der Einbung der Sprachdatei wurde behoben.
+- Bugix: Das erste Bild wird nicht mehr als Bild 0 von x angezeigt. Der Zähler wurde entsprechend modifiziert.
+
+Neu in Version 1.1.2
+
+Bugfix:  In mygalleryadmin.php (Zeile 98), mygalleryexif.php (Zeile 64), mygalleryoptions.php (Zeile 151) wurde ein Tag nicht mit einem > abgeschlossen. 
+Daher kam es zu Anzeigefehlern im Internetexplorer.
+
+Neu in Version 1.1.1
+
+- Anzeige der Bilderanzahl in der Galerieübersicht (optional)
+- Zur Foramtierung der Anzeige wurde folgende Klasse hinzugefügt:
+	
+	.picturesingallery
+
+-Bugfix: Erstellen einer Galerie über einen per FTP hochgeladenen Ordner sollte wieder funktionieren
+	
+Neu in Version 1.1
+
+- vollständige Übersetzung der Sprachdatei (Deutsch)
+
+Neu in Version 1.1b7
+
+- Optional kann die Anzahl der Seiten angezeigt werden, wenn die Galerieübersicht über mehrere Seiten verteilt wird
+- Optional kann die Anzahl der Bilder in der Galeriegroßansicht angezeigt werden (Bild x von y)
+- Wenn Bilder einer Galerie auf mehrere Seiten verteilt werden, kann optional die Anzahl der Seiten eingeblendet werden (Seite x von y)
+- Zur Formatierung der Seitenzahlen bzw. der Anzahl der Bilder wurden folgenden Klassen hinzugefügt:
+
+	.thumbscounter
+	.mypiccounter
+	.galcounter
+
+Bugfix: Galerienamen mit Bindestrich werden jetzt korrekt innerhalb des Tags [mygal=...] erkannt.	
+                                                                                                                                                                                        
+Neu in Version 1.1b6
+
+- Möglichkeit, die Bilder einer Galerie auf mehrer Seiten zu verteilen.  -> Einstellungen in den myGallery Optionen
+- Zur Formatierung der Navigation wurden die folgende neuen CSS-Klassen definiert:
+	.thumbsfor
+	.thumbsback
+	.thumbsnav
+
+Neu in Version 1.1b5
+
+- Beim Erstellen einer neuen Galerie über Option 2 oder Option 4 wird auch trennstriche (-) erkannt. Leerzeichen im Verzeichnisnamen werden jetzt nicht mehr durch den Unterstrich, sondern durch den Trennstrich ersetzt.
+
+Neu in Version 1.1b4
+
+- Unterstützung für WordPress 1.5.2 eingestellt. myGallery funktioniert künftig nur noch mit WordPress 2.x oder neuer
+- Optional können Bilder und Galerien mit Lightbox 2.0 statt mit Lightbox angezeigt werden
+
+Neu in Version 1.1b3
+
+- PHP Safe Mode wird jetzt auch richtig bei Server Konfiguration erkannt, wo statt eines statt eines Bool-Wertes ein String zurück gegeben wird (Danke an tec aus dem wordpress.de Forum) 
+- Optimierung der Codes in Bezug auf die Ermittlung der Höhe und Breite eines Bildes (Danke an Marcus 'crazyiven' Jäntsch).
+
+Neu in Version 1.1b2
+
+- Bildunterschrift bei Galeriebildern kann optinal abgeschaltet werden
+
+Neu in Version 1.1b1
+
+- Bei Inlinegalerien kann auch eine Bildunterschrift angezeigt werden
+- Umstellung auf WordPress 2.x Styles im Admin-Bereich
+- myGallery Optionen und Exif-Einstellungen verwenden jetzt dbx.js
+
+Neu in Version 1.0.6
+
+Bugfix: Ampersand (&) wird jetzt als Entity in Quelltext angegeben. So wird aus ...&page_id=  ...&amp;page_id=  - dadurch ist der Quelltext in Bezug auf die myGallery URLs XHTLM-Strict valide.
+
+Neu in Version 1.0.5
+
+Bugfix: myGallery sollte jetzt valides XHTML erzeugen.
+
+Neu in Version 1.0.4
+
+Bugfix: Galerie Browser funktioniert jetzt auch vollständig im WYSIWYG-Editor von WordPress 2.x
+Bugfix: Gleiche Inlinebilder mit unterschiedlichen Optionen werden jetzt auch unterschiedlich angezeigt
+
+
+Neu in Version 1.0.3
+
+- Slovakische und französische Übersetzungen hinzugefügt
+
+Neu in Version 1.0.2
+
+- myGallery Browser-Button ist jetzt im Wordpress 2.x WYSIWYG-Editor verfügbar
+
+Neu in Version 1.0.1
+
+- Bilder werden nur dann virtuell skaliert, wenn sie breiter als die angegebene virtuelle Breite sind
+Bugfix: Fehler bei der Anzeige des Titels in LighboxJS behoben
+Bugfix: Galerie-Name beim Hochalden eines Zip-Archives wird jetzt von Leerzeichen gesäubert und in Kleinbuchstaben konvertiert
+
+Neu in Version 1.0
+
+- Anzeige von Exif-Informationen. Zur Formatierung der Daten wurden die folgende neuen CSS-Klassen definiert:
+
+	.exifmetalabel
+	.exifbox 
+	.exiflabelone 
+	.exiflabeltwo
+	.exifdataone 
+	.exifdatatwo
+
+- myGallery läuft mit Einschränkungen im Safe Mode. Neue Galerien müssen dabei manuell hochgeladen und der Ordner tumbs in der jeweiligen Galerie angelegt werden.
+- via Quicktag kann ein Galeriebrowser zum einfachen Einfügen von Galerien und Bildern geöffnet werden - kompatibel zu WordPress 1.5.2 und 2.0 (bei deaktiviertem WYSIWYG)
+- LighboxJS kann optional auch zur Anzeige der großen Bilder einer Galerie verwendet werden
+- Trennung der einzelnen Scripte von myGallery in entsprechende Unterordner
+- neue Option, um die Verzerrung von Hochformatigen Bilder bei Inlinegalerien zu verhindern
+- Einzelne Bilder einer Galerie können von der Anzeige ausgeschlossen werden
+- Über einen Textlink kann ein Bild aus einer Galerie angezeigt werden: [mypicref=$id]irgendein Text[/mypicref]
+- zwei neue Werte für Inlinebilder. Für $align beim inspic Tag gibt es jetzt die Werte leftclear und rightclear
+- zwei neue Klassen zur Formatierung von Inlinebildern:
+
+	.myinlinepictureleftclear
+	.myinlinepicturerightclear
+
+- Sortieroption für die Galerieübersicht
+- Thubnails können über die Galerieverwaltung aktualisiert werden
+- Definition der Datei und Verzeichnisrechte ist steht jetzt in der Datei mygallery.php, Zeile 36 und 37
+- Pfad zum Speichern der Galerien bei Erststart frei wählbar
+- Die Funktion für die Zufallsbilder kann optional mit einem numerischen Wert, der die Anzahl der Zufallsbilder angibt, aufgerufen werden
+- Optional können alternative Naigationspfeile oder -texte für die Bildernaviagtion eingestellt werden für die src Angabe dürfen dabei nur einfach Anführungsstriche verwendet werden
+- Galerieübersicht kann unterteilt werden - innerhalb der Seite wird dann geblättert
+- drei neue Klassen zur Formatierung der Galerieübersichtsnavigation:
+
+	.gallerynav
+	.galleryfor 
+	.galleryback 
+
+- Bugfix: Korrektur am default Stylesheet
+- Bugfix: Galeriebeschreibungen und langer Galeriename können jetzt auch gelöscht werden
+- Bugfix: Verzeichnisrechte wurde auf 0777 gesetzt.
+- Bugfix: Werden andere Plugins aktiviert oder myGallery neu aktiviert, müssen nicht mehr alle Optionen erneut auf eigene Werte geändert werden
+
+Neu in Version 0.5.8
+
+- Beim Erststart wird die maximale Uploadgröße für Dateien auf dem Server angezeigt
+- Einbindung von Lightbox JS zur Anzeige von Bildern
+- Bugfix: Filter für p-Tags wurde verbessert
+- Bugfix: Validitätsfehler bei der Referenzierung behoben
+
+Neu in Version 0.5.7
+
+- Auswahl zwischen einem 3D-Style und den dem default Style für die Bilder
+- Bildunterschriften für Inlinebilder
+- Auto-Patch Funktion aktualisiert keine Version von myGallery mehr, die älter als Version 0.5.6 ist
+- drei neue Klassen zur Formatierung der Inlinebilder:
+
+	.myinlinepicdescription 
+	.myinlinepictureimg
+	.myinlineborder
+
+- zwei neue Klassen zur Formatierung der Großansicht:
+
+	.mypcitureborder
+	.mypictureimg
+	
+- zwei neue Klassen zur Formatierung der Mini-Galerien:
+
+	.mypcitureentryborder
+	.mypictureentryimg
+
+Neu in Version 0.5.6.1
+
+- drei neue Klassen für den <div>-Tag, der die Inlinebilder umschließt:
+
+	.myinlinepicture (Änderung hier zu letzten Version: Klasse wurde <di> zugewiesen und nicht mehr <img>
+	.myinlinepictureleft
+	.myinlinepictureright 
+
+- Warnhinweis, wenn der PHP safe-mode auf dem Server aktiv ist
+- Bugfix: Übersetzung einer englischen Fehlermeldung korrigiert
+- Bugfix: <p>-Tags werden jetzt überprüft und entfernt, wenn sie um <p> geschachtelt sind und dadurch nicht validen Code erzeugen
+- Bugfix:  add_filter('the_content', 'mygallery');  wird wieder verwendt statt add_filter('the_content', 'mygallery',9);
+- Bugfix: PNG und GIf werden jetzt korrekt unterstützt - Fehler bei der Größenberechnung wurde behoben
+
+Neu in Version 0.5.6
+
+- Bilder in Beiträgen, die durch myGallery eingefügt werden, habe die Klasse .myinlinepicture
+- die default Optionen wurden geändert:
+
+	Galerie Vorschau Optionen ->Zeige Vorschaubild (ja) ->Zeige Galeriebeschreibung (ja) ->Verwende lange Namen als Galerietitel (ja) 
+	Syleeinstellungen ->Binde das Stylesheet in das aktive Theme ein (ja)
+
+- Auto-Patch Funktion aktualisiert keine Version von myGallery mehr, die älter als Version 0.5.3 ist
+- Lese- und Schreibrecht für Dateien und Ordner haben eine Konstante bekommen, die sich bei Bedarf zentral ändern lässt
+- Sprachpaket wird jetzt auomatisch eingebunden nach der Installation
+- Unterstützung von Einzelbildern in Beiträgen durch den Tag [inspic=$id(,$allign,$pop,$thumborscale)] Einzelheiten dazu in der Dokumentation
+- Doppelte Bilddateien in eine Galerie werden entfernt
+- Bilder können auf- oder absteigend sortiert werden
+- Bilder können virtuell verkleinert werden. Ein Klick auf das Bild zeigt das Orginalbild an.
+- Bugfix: ._ Dateien von Mac OS X werden gefiltert
+- Bugfix: foreach-Schleifen haben jetzt eine Sicherheitsabfrage
+- Bugfix: Auch per FTP können jetzt Bilder zu einer Galerie hinzugefügt werden - Die Option "Importieren von Bildern vom Server" aktualisiert entsprechende Galere. Es sollte jedoch immer nur Bilder über die Galerieverwaltung gelöscht werden
+- Bugfix: Dateioperationen werden bei Fehlschlag mit eigener Fehlermeldung abgefangen
+- Bugifix: Formulare entsprechend jetzt dem WordPress Standard
+
+Neu in Version 0.5.5
+
+- Bugfix: Installer setzt jetzt die Versionsnummern richtig
+- Neben JPG wird jetzt auch PNG und GIF als Bildformat unterstützt 
+
+Neu in Version 0.5.4.2
+
+- Bugfix: Einige Start Tags waren nur in der Kurzform - <? statt <?php
+- Bugfix: foreach Schleife im Adminbereich führte zu Fehlermeldungen bei leeren Galerien
+- Bugfix: Löschen einer nicht vorhanden Galerie führte zu Fehlermeldungen
+- Bugfix: JavaScript erzeugt jetzt auch beim Inlinebild den passenden Alt und Title Text
+- Bugfix: Wenn für die Galerieübersicht kein Vorschaubild für eine Galerie ausgewählt wurde, kommt es nicht mehr zu einer Fehlermeldung, wenn Vorschaubilder angezeigt werden sollen
+
+Neu in Version 0.5.4.1
+
+- Bugfix: Updatefunktion hatte ein Fehler bei der Versionsummer; Alt und Title Funktion lief nicht einwandfrei nach einem Upgrade
+
+Neu in Version 0.5.4
+
+- Styleanweisungen werden optional in den Header geladen und per Plugin verwaltet
+- Deutsches Sprachpaket verfügbar
+
+Neu in Version 0.5.3
+
+- alt und title tags werden für alle Bilder generiert und können über die Galerieverwaltung mit Inhalt gefüllt werden 
+
+Neu in Version 0.5.2
+
+- Mindest Userlevel für das Plugin wurde auf 6 erhöht
+
+Neu in Version 0.5.1
+
+- Sicherheitslücken gestopft: Es können ausschließlich .jpg Dateien hochgeladen werden. Alles andere wird gelöscht.
+
+Neu in Version 0.4.5
+
+- Bilder von Galerien, die von der automatischen Auflistung auf Wunsch ausgeschlossen wurden, werden nicht als Zufallsbild verwendet
+- myGallery produziert jetzt validen Code
+- zusätzliche Tags für die Galerien in  einem Beitrag (mygallery.css kann als Vorlage verwendet werden):
+	
+	.mypicsgalleryentry 
+	.mygallpicentry 
+
+Neu in Version 0.4.4
+
+- Galerien können von der automatischen Auflistung auf Wunsch ausgeschlossen werden
+- Einbindung von Galerien in normale Post und blättern, ohne daß die Seite neu geladen wird
+- in der Datei des eigenen Themes sollte die sollten folgene Klassen hinzugefügt werden:
+	
+	.mypicboxentry 
+	.mypictureentry 
+	
+- Bugfix:  Beschriftung bei den Gallerie-Optionen korrigiert		
+
+Neu in Version 0.4.3
+
+- "Gallery long name" kann jetzt bis zu 255 Zeichen lang sein (vorher: 25 Zeichen)
+- Beseitigung diverse Tippfehler in der Dokumentation und im Plugin
+- in der Datei des eigenen Themes sollte die Klasse mypicbox wie folgt ergänzt werden:
+	
+	.mypicbox {
+		margin-bottom: 30px;
+	}
+
+- Wegfall der Datei readme.txt, stattdessen ist auf der Webseite eine PDF-Dokumentation verfügbar
+
+Neu in Version 0.4.2b
+
+- Automatische Auflistung aller Galerien
+- Beschreibung für Galerien
+- Vorschaubild für Galerien
+- Bugfix: Sortierreihenfolge wird jetzt beim Durchblättern der Einzelbilder richtig erkannt
+
+Neu in Version 0.4.1
+
+- die Sortierreihenfolge der Bilder einer Galerie kann verändert werden
+
+Neu in Version 0.4
+
+- Bildern kann ein Style über das Theme zugewiesen werden
+- Option zum weiterblättern innerhalb einer Galerie bei der Großansicht der Bilder
+- Zufällige Bilder in der Sidebar (flickr like)
+- speicherung der Thumbnaileinstellungen
+- Berücksichtigung von Bildern im Hochformat
+- Hinzufügen von gezipten Bilder zu einer vorhandenen Galerie
+- Kompatible zu Permalinks

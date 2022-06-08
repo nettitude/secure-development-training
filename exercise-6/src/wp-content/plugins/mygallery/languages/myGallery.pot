@@ -1,0 +1,869 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myGallery\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-05-30 18:20+0100\n"
+"Last-Translator: Thomas Boley <tboley.at.web.de>\n"
+"Language-Team: Thomas Boley <tboley@web.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Germany\n"
+"X-Poedit-KeywordsList: __;_e\n"
+
+#: mygallery/mygallerystyle.php:35
+msgid "Stylesettings updated."
+msgstr ""
+
+#: mygallery/mygallerystyle.php:60
+msgid "Style Options for myGallery"
+msgstr ""
+
+#: mygallery/mygallerystyle.php:64
+msgid "Style options"
+msgstr ""
+
+#: mygallery/mygallerystyle.php:65
+msgid "Include myGallery style in activ theme"
+msgstr ""
+
+#: mygallery/mygallerystyle.php:65
+msgid "default Style or"
+msgstr ""
+
+#: mygallery/mygallerystyle.php:65
+msgid "3D border style"
+msgstr ""
+
+#: mygallery/mygallerystyle.php:69
+msgid "myGallery style settings"
+msgstr ""
+
+#: mygallery/mygallerystyle.php:71
+msgid "If this file was writable you could edit it"
+msgstr ""
+
+#: mygallery/mygallerystyle.php:74
+#: mygallery/mygalleryexif.php:91
+msgid "save changes"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:15
+#: mygallery/mygallery.php:44
+#: mygallery/mygallerymain.php:14
+#: mygallery/mygallerybrowser.php:39
+msgid "Function library mygalleryfunctions.php was not found."
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:44
+msgid "Pictures where removed form gallery."
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:61
+msgid "Thumbnails where updated."
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:72
+msgid "Picture information updated."
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:83
+msgid "Gallery was deleted."
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:94
+#: mygallery/mygallery.php:228
+msgid "Gallery Management"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:97
+msgid "Gallery operations"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:98
+msgid "Select a gallery"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:110
+msgid "show selected gallery or"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:110
+msgid "delete selected gallery"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:110
+msgid "type"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:110
+msgid "in the box"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:135
+msgid "Gallery setting for"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:137
+msgid "gallery page_id:"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:138
+msgid "Preview Picture:"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:149
+msgid "Gallery description:"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:150
+msgid "Gallery long name:"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:151
+msgid "Gallery sort number:"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:153
+msgid "Exclude gallery from overview"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:159
+msgid "Create new thumbnails"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:159
+msgid "Update gallery and picture data"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:160
+#: mygallery/mygallerybrowser.php:124
+msgid "Gallery pictures from"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:163
+msgid "Filename"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:163
+msgid "Order Nr."
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:163
+#: mygallery/mygallerybrowser.php:128
+msgid "Thumbnail"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:163
+msgid "Description"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:163
+#: mygallery/mygallerybrowser.php:114
+msgid "Text"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:163
+msgid "exclude"
+msgstr ""
+
+#: mygallery/mygalleryadmin.php:186
+msgid "Delete selected"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:64
+#: mygallery/mygalleryexif.php:33
+msgid "Options updated."
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:155
+msgid "Picture and Thumbnail Options."
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:161
+msgid "Picture options"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:164
+msgid "Scale orignal pictures to a with of"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:164
+#: mygallery/mygalleryoptions.php:167
+msgid "height will be generated"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:165
+msgid "Preserve portrait format"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:167
+msgid "Virtual Scale orignal pictures to a with of"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:173
+msgid "Thumbnail Options"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:175
+msgid "Scale width and height and to"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:176
+msgid "Scale width to"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:176
+msgid "and set height automatically"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:177
+msgid "Make squarely thumbnails with a width of"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:178
+msgid "Thumbnail quality"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:184
+msgid "Sorting Options"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:186
+msgid "Sort pictures by ID"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:186
+#: mygallery/mygalleryoptions.php:190
+msgid "default"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:187
+msgid "Sort pictures by name"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:188
+msgid "Sort pictures by number"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:189
+msgid "Sort pictures ascending or"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:189
+#: mygallery/mygalleryoptions.php:193
+msgid "descending"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:190
+msgid "Sort galleries by ID"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:191
+msgid "Sort galleries by name"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:192
+msgid "Sort galleries by number"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:193
+msgid "Sort galleries ascending or"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:199
+msgid "Gallery Overview Options"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:201
+msgid "Show preview picture"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:202
+msgid "Show gallery description"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:203
+msgid "Use long names as gallery title"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:204
+msgid "Exclude selected gallerys from overview"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:205
+msgid "Show only"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:205
+msgid "gallery(s) per page"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:206
+msgid "Show number of pages"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:207
+msgid "Show number of thumbnails"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:214
+msgid "Viewmode Options"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:216
+msgid "Show thubnails in fullsize mode"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:217
+msgid "Show number of pictures in fullsize mode"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:218
+msgid "Show description for inline pictures"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:219
+msgid "Use Lightbox JS for inlinpictures and virtual scaled pictures"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:220
+msgid "Use Lightbox JS for gallerie pictures"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:221
+msgid "Use Lightbox JS for random pictures"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:222
+msgid "Use myGallery template function in theme <i>(for random pictures)</i> on page <i>(id)</i>"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:223
+msgid "Use Lightbox Version 1"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:223
+msgid "Use Lightbox Version 2"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:224
+msgid "Refresh height und weight for inline gallery pictures"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:225
+msgid "Show picture description for inline galleries "
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:226
+msgid "Show picture description for gallery picture "
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:227
+msgid "Show"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:227
+msgid "thumbs per page"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:228
+msgid "Show number of pages for gallery thumbs"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:234
+msgid "Gallery Navigation Options"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:236
+#: mygallery/mygalleryfunctions.php:1044
+msgid "up"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:236
+#: mygallery/mygalleryfunctions.php:333
+#: mygallery/mygalleryfunctions.php:663
+#: mygallery/mygalleryfunctions.php:1000
+msgid "back"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:236
+#: mygallery/mygalleryfunctions.php:329
+#: mygallery/mygalleryfunctions.php:658
+#: mygallery/mygalleryfunctions.php:990
+msgid "forward"
+msgstr ""
+
+#: mygallery/mygalleryoptions.php:241
+msgid "save options"
+msgstr ""
+
+#: mygallery/mygallery.php:229
+msgid "Options"
+msgstr ""
+
+#: mygallery/mygallery.php:230
+msgid "Gallery Style"
+msgstr ""
+
+#: mygallery/mygallery.php:231
+#: mygallery/mygalleryexif.php:60
+msgid "Exif Settings"
+msgstr ""
+
+#: mygallery/mygallery.php:232
+msgid "Info"
+msgstr ""
+
+#: mygallery/mygallerymain.php:56
+#: mygallery/mygallerymain.php:137
+#: mygallery/mygallerybrowser.php:233
+msgid "No file was submitted"
+msgstr ""
+
+#: mygallery/mygallerymain.php:61
+msgid "Uploaded file was no zip file"
+msgstr ""
+
+#: mygallery/mygallerymain.php:71
+#: mygallery/mygallerymain.php:276
+#: mygallery/mygallerymain.php:278
+msgid "Unable to create directory "
+msgstr ""
+
+#: mygallery/mygallerymain.php:74
+#: mygallery/mygallerymain.php:112
+#: mygallery/mygallerymain.php:114
+#: mygallery/mygallerymain.php:272
+msgid "Directory"
+msgstr ""
+
+#: mygallery/mygallerymain.php:74
+msgid "exists"
+msgstr ""
+
+#: mygallery/mygallerymain.php:79
+#: mygallery/mygallerymain.php:156
+msgid "Unable to unzip!"
+msgstr ""
+
+#: mygallery/mygallerymain.php:83
+#: mygallery/mygallerymain.php:277
+#: mygallery/mygallerymain.php:279
+msgid "Unable to set permissions for directory "
+msgstr ""
+
+#: mygallery/mygallerymain.php:84
+msgid "Unable to unlink file "
+msgstr ""
+
+#: mygallery/mygallerymain.php:90
+#: mygallery/mygallerymain.php:127
+msgid "Gallery is ready!"
+msgstr ""
+
+#: mygallery/mygallerymain.php:90
+#: mygallery/mygallerymain.php:127
+msgid "Use"
+msgstr ""
+
+#: mygallery/mygallerymain.php:90
+#: mygallery/mygallerymain.php:127
+msgid "to insert gallery into a page"
+msgstr ""
+
+#: mygallery/mygallerymain.php:106
+msgid "No folder name submitted"
+msgstr ""
+
+#: mygallery/mygallerymain.php:112
+#: mygallery/mygallerymain.php:114
+msgid "doesn&#96;t exist"
+msgstr ""
+
+#: mygallery/mygallerymain.php:139
+msgid "No gallery selected"
+msgstr ""
+
+#: mygallery/mygallerymain.php:148
+msgid "Unable to creat temporary directory "
+msgstr ""
+
+#: mygallery/mygallerymain.php:149
+msgid "Unable to set permissions for temporary directory "
+msgstr ""
+
+#: mygallery/mygallerymain.php:160
+#: mygallery/mygallerymain.php:187
+msgid "Unable to remove file "
+msgstr ""
+
+#: mygallery/mygallerymain.php:194
+msgid "Unable to unlink directory "
+msgstr ""
+
+#: mygallery/mygallerymain.php:203
+#: mygallery/mygallerybrowser.php:241
+msgid "Unable to move file "
+msgstr ""
+
+#: mygallery/mygallerymain.php:208
+#: mygallery/mygallerymain.php:385
+#: mygallery/mygallerymain.php:416
+#: mygallery/mygallerybrowser.php:244
+msgid "Unable to set permissions for file "
+msgstr ""
+
+#: mygallery/mygallerymain.php:216
+#: mygallery/mygallerybrowser.php:255
+msgid "Unable to unlink unsupported file "
+msgstr ""
+
+#: mygallery/mygallerymain.php:218
+#: mygallery/mygallerybrowser.php:251
+msgid "Not a supported file format"
+msgstr ""
+
+#: mygallery/mygallerymain.php:220
+msgid "Picture(s) added to gallery!"
+msgstr ""
+
+#: mygallery/mygallerymain.php:228
+msgid "Unable to creat folder for thumbnails "
+msgstr ""
+
+#: mygallery/mygallerymain.php:229
+msgid "Unable to set permissions for thumbnail folder "
+msgstr ""
+
+#: mygallery/mygallerymain.php:233
+msgid "Create the folder <i>tumbs</i> in your gallery folder first."
+msgstr ""
+
+#: mygallery/mygallerymain.php:270
+msgid "No valid gallery name!"
+msgstr ""
+
+#: mygallery/mygallerymain.php:272
+msgid "exists!"
+msgstr ""
+
+#: mygallery/mygallerymain.php:310
+msgid "myGallery Generator"
+msgstr ""
+
+#: mygallery/mygallerymain.php:315
+msgid "Select operation"
+msgstr ""
+
+#: mygallery/mygallerymain.php:317
+msgid "Upload a zip file with images from my harddrive:"
+msgstr ""
+
+#: mygallery/mygallerymain.php:319
+msgid "Import pictures from a folder on the server:"
+msgstr ""
+
+#: mygallery/mygallerymain.php:320
+msgid "Upload to gallery"
+msgstr ""
+
+#: mygallery/mygallerymain.php:327
+msgid "a single picture "
+msgstr ""
+
+#: mygallery/mygallerymain.php:327
+msgid " or zip file"
+msgstr ""
+
+#: mygallery/mygallerymain.php:330
+msgid "Create"
+msgstr ""
+
+#: mygallery/mygallerymain.php:330
+msgid "as new, empty gallery"
+msgstr ""
+
+#: mygallery/mygallerymain.php:335
+msgid "Authorized characters for file and folder names are"
+msgstr ""
+
+#: mygallery/mygallerymain.php:337
+msgid "submit"
+msgstr ""
+
+#: mygallery/mygallerymain.php:351
+msgid "Gallery"
+msgstr ""
+
+#: mygallery/mygallerymain.php:355
+msgid "Gallery was created!"
+msgstr ""
+
+#: mygallery/mygallerymain.php:389
+#: mygallery/mygallerymain.php:419
+msgid "Unable to remove unsupported file "
+msgstr ""
+
+#: mygallery/mygallerymain.php:452
+msgid "save gallerys in folder:"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:324
+#: mygallery/mygalleryfunctions.php:653
+msgid "page"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:324
+#: mygallery/mygalleryfunctions.php:653
+#: mygallery/mygalleryfunctions.php:1056
+msgid "of"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:476
+msgid "Unable to change permissions for picture "
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:532
+msgid "Unidentified"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:532
+msgid "Manual"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:532
+msgid "Normal"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:532
+msgid "Aperture priority"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:532
+msgid "Shutter priority"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:532
+msgid "Creative"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:532
+msgid "Action"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:532
+msgid "Portrait mode"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:532
+msgid "Landscape mode"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:533
+msgid "Metadata"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:538
+#: mygallery/mygalleryexif.php:77
+msgid "Make"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:542
+#: mygallery/mygalleryexif.php:78
+msgid "Model"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:546
+#: mygallery/mygalleryexif.php:79
+msgid "Exposure Time"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:550
+#: mygallery/mygalleryexif.php:86
+msgid "Shutter Speed"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:554
+#: mygallery/mygalleryexif.php:80
+msgid "Aperture FNumber"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:558
+#: mygallery/mygalleryexif.php:81
+msgid "Focal Length"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:562
+#: mygallery/mygalleryexif.php:82
+msgid "ISO Speed Ratings"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:566
+#: mygallery/mygalleryexif.php:84
+msgid "Date and Time"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:573
+#: mygallery/mygalleryexif.php:85
+msgid "Exposure Program"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:577
+msgid "no"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:580
+msgid "yes"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:584
+#: mygallery/mygalleryexif.php:83
+msgid "Flash"
+msgstr ""
+
+#: mygallery/mygalleryfunctions.php:1056
+#: mygallery/mygallerybrowser.php:164
+msgid "picture"
+msgstr ""
+
+#: mygallery/mygalleryexif.php:66
+msgid "Show Exif Informations"
+msgstr ""
+
+#: mygallery/mygalleryexif.php:68
+msgid "Enable Exif for gallery pictures"
+msgstr ""
+
+#: mygallery/mygalleryexif.php:69
+msgid "Skip empty values"
+msgstr ""
+
+#: mygallery/mygalleryexif.php:75
+msgid "Show values for"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:68
+msgid "myGallery Browser"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:78
+msgid "select gallery"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:85
+msgid "show upload Form"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:86
+msgid "hide upload Form"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:87
+msgid "show myGallery Tags"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:88
+msgid "hide myGallery Tags"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:112
+msgid "Upload a picture"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:113
+msgid "upload"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:119
+msgid "gallery overview"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:120
+msgid "gallery "
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:121
+msgid "inlinegallery"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:128
+msgid "Align"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:128
+msgid "Popup"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:128
+msgid "Size"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:128
+msgid "Lightbox group"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:128
+msgid "Tag"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:139
+#: mygallery/mygallerybrowser.php:148
+#: mygallery/mygallerybrowser.php:155
+#: mygallery/mygallerybrowser.php:160
+msgid "none"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:140
+msgid "left"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:141
+msgid "right"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:142
+msgid "leftclear"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:143
+msgid "rightclear"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:149
+msgid "fullscreen"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:150
+msgid "gal"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:151
+msgid "URL"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:156
+msgid "thumb"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:157
+msgid "scaled by"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:166
+msgid "link"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:166
+msgid "Your link text"
+msgstr ""
+
+#: mygallery/mygallerybrowser.php:260
+msgid "Picture added to gallery."
+msgstr ""
+
+#: mygallery/mygallinfo.php:16
+msgid "General Info"
+msgstr ""
+

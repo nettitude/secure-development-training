@@ -1,0 +1,783 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myGallery\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-03-10 09:18+0100\n"
+"Last-Translator: František Malina <vizualbod@vizualbod.com>\n"
+"Language-Team: František Malina <fmalina@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Slovak\n"
+"X-Poedit-Country: SLOVAKIA\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\Programme\\poEdit\\\n"
+"X-Poedit-SearchPath-0: mygallery\n"
+
+#: mygallery/mygallerystyle.php:41
+msgid "Stylesettings updated."
+msgstr "Nastavenia štýlu boli aktualizované."
+
+#: mygallery/mygallerystyle.php:66
+msgid "Style Options for myGallery"
+msgstr "Možnosti štýlu galérie"
+
+#: mygallery/mygallerystyle.php:70
+msgid "Style options"
+msgstr "Možnosti štýlu"
+
+#: mygallery/mygallerystyle.php:71
+msgid "Include myGallery style in activ theme"
+msgstr "Vlož štýl galérie do aktívnej témy"
+
+#: mygallery/mygallerystyle.php:71
+msgid "default Style or"
+msgstr "východiskový štýl alebo"
+
+#: mygallery/mygallerystyle.php:71
+msgid "3D border style"
+msgstr "štýl s 3D okrajom"
+
+#: mygallery/mygallerystyle.php:75
+msgid "myGallery style settings"
+msgstr "Nastavenia štýlu galérie"
+
+#: mygallery/mygallerystyle.php:77
+msgid "If this file was writable you could edit it"
+msgstr "Ak je možné do tohto súboru zapisovať (CHMOD), môžete ho editovať."
+
+#: mygallery/mygallerystyle.php:80
+#: mygallery/mygalleryexif.php:89
+msgid "save changes"
+msgstr "uložiť zmeny"
+
+#: mygallery/mygalleryadmin.php:21
+#: mygallery/mygallery.php:44
+#: mygallery/mygallerymain.php:20
+#: mygallery/mygallerybrowser.php:39
+msgid "Function library mygalleryfunctions.php was not found."
+msgstr "Knižnica funkcií mygalleryfunctions.php nebola nájdená."
+
+#: mygallery/mygalleryadmin.php:50
+msgid "Pictures where removed form gallery."
+msgstr "Obrázky boli odstránené z galérie."
+
+#: mygallery/mygalleryadmin.php:67
+msgid "Thumbnails where updated."
+msgstr "Miniatúry boli aktualizované."
+
+#: mygallery/mygalleryadmin.php:78
+msgid "Picture information updated."
+msgstr "Informácia o obrázku aktualizovaná."
+
+#: mygallery/mygalleryadmin.php:89
+msgid "Gallery was deleted."
+msgstr "Galéria bola vymazaná."
+
+#: mygallery/mygalleryadmin.php:97
+#: mygallery/mygallery.php:475
+msgid "Gallery Management"
+msgstr "Správa galérie"
+
+#: mygallery/mygalleryadmin.php:100
+msgid "Gallery operations"
+msgstr "Operácie galérie"
+
+#: mygallery/mygalleryadmin.php:101
+msgid "Select a gallery"
+msgstr "Vyberte galériu"
+
+#: mygallery/mygalleryadmin.php:113
+msgid "show selected gallery or"
+msgstr "ukázať vybranú galériu alebo"
+
+#: mygallery/mygalleryadmin.php:113
+msgid "delete selected gallery"
+msgstr "vymyzať vybranú galériu"
+
+#: mygallery/mygalleryadmin.php:113
+msgid "type"
+msgstr "Napíšte"
+
+#: mygallery/mygalleryadmin.php:113
+msgid "in the box"
+msgstr "do poľa"
+
+#: mygallery/mygalleryadmin.php:136
+msgid "Gallery setting for"
+msgstr "Nastavenia galérie pre"
+
+#: mygallery/mygalleryadmin.php:138
+msgid "gallery page_id:"
+msgstr "page_id galérie:"
+
+#: mygallery/mygalleryadmin.php:139
+msgid "Preview Picture:"
+msgstr "náhľad obrázku:"
+
+#: mygallery/mygalleryadmin.php:150
+msgid "Gallery description:"
+msgstr "popis galérie:"
+
+#: mygallery/mygalleryadmin.php:151
+msgid "Gallery long name:"
+msgstr "Dlhý názov galérie:"
+
+#: mygallery/mygalleryadmin.php:152
+msgid "Gallery sort number:"
+msgstr "Číslo usporiadania galérie"
+
+#: mygallery/mygalleryadmin.php:154
+msgid "Exclude gallery from overview"
+msgstr "Vyňať galériu z prehľadu"
+
+#: mygallery/mygalleryadmin.php:159
+#: mygallery/mygallerybrowser.php:124
+msgid "Gallery pictures from"
+msgstr "Obrázky z"
+
+#: mygallery/mygalleryadmin.php:160
+#: mygallery/mygalleryadmin.php:185
+msgid "Delete selected"
+msgstr "Vymazať vybrané"
+
+#: mygallery/mygalleryadmin.php:160
+#: mygallery/mygalleryadmin.php:185
+msgid "Create new thumbnails"
+msgstr "Vytvoriť nové miniatúry"
+
+#: mygallery/mygalleryadmin.php:160
+#: mygallery/mygalleryadmin.php:185
+msgid "Update gallery and picture data"
+msgstr "Obnoviť galériu a obrázky"
+
+#: mygallery/mygalleryadmin.php:162
+msgid "Filename"
+msgstr "Názov súboru"
+
+#: mygallery/mygalleryadmin.php:162
+msgid "Order Nr."
+msgstr "Poradové číslo"
+
+#: mygallery/mygalleryadmin.php:162
+#: mygallery/mygallerybrowser.php:128
+msgid "Thumbnail"
+msgstr "Miniatúra"
+
+#: mygallery/mygalleryadmin.php:162
+msgid "Description"
+msgstr "Popis"
+
+#: mygallery/mygalleryadmin.php:162
+#: mygallery/mygallerybrowser.php:114
+msgid "Text"
+msgstr "Text"
+
+#: mygallery/mygalleryadmin.php:162
+msgid "exclude"
+msgstr "vyňať"
+
+#: mygallery/mygalleryoptions.php:56
+#: mygallery/mygalleryexif.php:39
+msgid "Options updated."
+msgstr "Možnosti aktualizované."
+
+#: mygallery/mygalleryoptions.php:126
+msgid "Picture and Thumbnail Options."
+msgstr "Možnosti obrázku a miniatúry"
+
+#: mygallery/mygalleryoptions.php:130
+msgid "Picture options"
+msgstr "Možnosti obrázku"
+
+#: mygallery/mygalleryoptions.php:132
+msgid "Scale orignal pictures to a with of"
+msgstr "Zmena pomernej veľkosti originálneho obrázku na šírku"
+
+#: mygallery/mygalleryoptions.php:132
+#: mygallery/mygalleryoptions.php:135
+msgid "height will be generated"
+msgstr "Výška bude vygenerovaná."
+
+#: mygallery/mygalleryoptions.php:133
+msgid "Preserve portrait format"
+msgstr "Uchovať pôvodný formát"
+
+#: mygallery/mygalleryoptions.php:135
+msgid "Virtual Scale orignal pictures to a with of"
+msgstr "Zdanlivá zmena pomernej veľkosti na šírku"
+
+#: mygallery/mygalleryoptions.php:139
+msgid "Thumbnail Options"
+msgstr "Možnosti miniatúry"
+
+#: mygallery/mygalleryoptions.php:140
+msgid "Scale width and height and to"
+msgstr "Zmeniť pomernú šírku a výšku na"
+
+#: mygallery/mygalleryoptions.php:141
+msgid "Scale width to"
+msgstr "Zmeniť pomernú šírku na"
+
+#: mygallery/mygalleryoptions.php:141
+msgid "and set height automatically"
+msgstr "a výšku stanoviť automaticky"
+
+#: mygallery/mygalleryoptions.php:142
+msgid "Make squarely thumbnails with a width of"
+msgstr "Vytvoriť štvorcové miniatúry so šírkou"
+
+#: mygallery/mygalleryoptions.php:145
+msgid "Sorting Options"
+msgstr "Možnosti poradia"
+
+#: mygallery/mygalleryoptions.php:146
+msgid "Sort pictures by ID"
+msgstr "Usporiadať obrázky podľa ID"
+
+#: mygallery/mygalleryoptions.php:146
+#: mygallery/mygalleryoptions.php:150
+msgid "default"
+msgstr "východzie"
+
+#: mygallery/mygalleryoptions.php:147
+msgid "Sort pictures by name"
+msgstr "Usporiadať obrázky podľa mena"
+
+#: mygallery/mygalleryoptions.php:148
+msgid "Sort pictures by number"
+msgstr "Usporiadať obrázky podľa čísla"
+
+#: mygallery/mygalleryoptions.php:149
+msgid "Sort pictures ascending or"
+msgstr "Usporiadať obrázky vzostupne"
+
+#: mygallery/mygalleryoptions.php:149
+#: mygallery/mygalleryoptions.php:153
+msgid "descending"
+msgstr "zostupne"
+
+#: mygallery/mygalleryoptions.php:150
+msgid "Sort galleries by ID"
+msgstr "Usporiadať galérie podľa ID"
+
+#: mygallery/mygalleryoptions.php:151
+msgid "Sort galleries by name"
+msgstr "Usporiadať galérie podľa mena"
+
+#: mygallery/mygalleryoptions.php:152
+msgid "Sort galleries by number"
+msgstr "Usporiadať galérie podľa čísla"
+
+#: mygallery/mygalleryoptions.php:153
+msgid "Sort galleries ascending or"
+msgstr "Usporiadať galérie vzostupne"
+
+#: mygallery/mygalleryoptions.php:157
+msgid "Gallery Overview Options"
+msgstr "Možnosti náhľadu galérie"
+
+#: mygallery/mygalleryoptions.php:158
+msgid "Show preview picture"
+msgstr "Ukázať náhľad obrázku"
+
+#: mygallery/mygalleryoptions.php:159
+msgid "Show gallery description"
+msgstr "Ukázať popis galérie"
+
+#: mygallery/mygalleryoptions.php:160
+msgid "Use long names as gallery title"
+msgstr "Používať dlhé mená ako názvy galérií"
+
+#: mygallery/mygalleryoptions.php:161
+msgid "Exclude selected gallerys from overview"
+msgstr "Vyňať vybrané galérie z náhľadu"
+
+#: mygallery/mygalleryoptions.php:162
+msgid "Show only"
+msgstr "Ukázať iba"
+
+#: mygallery/mygalleryoptions.php:162
+msgid "gallery(s) per page"
+msgstr "galérie na stránke"
+
+#: mygallery/mygalleryoptions.php:166
+msgid "Viewmode Options"
+msgstr "Možnosti spôsobu prezerania"
+
+#: mygallery/mygalleryoptions.php:167
+msgid "Show thubnails in fullsize mode"
+msgstr "Ukázať miniatúry v móde zabradenia plnej veľkosti obrázku"
+
+#: mygallery/mygalleryoptions.php:168
+msgid "Show description for inline pictures"
+msgstr "Ukázať popisy pre vložené obrázky"
+
+#: mygallery/mygalleryoptions.php:169
+msgid "Use Lightbox JS for inlinpictures and virtual scaled pictures"
+msgstr "Použiť Lightbox JS pre vložené obrázky a  obrázky so zdanlivou zmenou pomernej veľkosti"
+
+#: mygallery/mygalleryoptions.php:170
+msgid "Use Lightbox JS for gallerie pictures"
+msgstr "Použiť Lightbox JS pre obrázky v galériach"
+
+#: mygallery/mygalleryoptions.php:171
+msgid "Refresh height und weight for inline gallery pictures"
+msgstr "Obnoviť výšku a šírku pre inline vložené obrázky"
+
+#: mygallery/mygalleryoptions.php:175
+msgid "Gallery Navigation Options"
+msgstr "Možnosti navigácie v galérii"
+
+#: mygallery/mygalleryoptions.php:176
+#: mygallery/mygallery.php:185
+msgid "up"
+msgstr "hore"
+
+#: mygallery/mygalleryoptions.php:176
+#: mygallery/mygallery.php:133
+#: mygallery/mygalleryfunctions.php:307
+msgid "back"
+msgstr "späť"
+
+#: mygallery/mygalleryoptions.php:176
+#: mygallery/mygallery.php:123
+#: mygallery/mygalleryfunctions.php:303
+msgid "forward"
+msgstr "daľej"
+
+#: mygallery/mygalleryoptions.php:179
+msgid "save options"
+msgstr "uložiť možnosti"
+
+#: mygallery/mygallery.php:476
+msgid "Options"
+msgstr "Možnosti"
+
+#: mygallery/mygallery.php:477
+msgid "Gallery Style"
+msgstr "Štýl galérie"
+
+#: mygallery/mygallery.php:478
+#: mygallery/mygalleryexif.php:63
+msgid "Exif Settings"
+msgstr "Exif nastavenia"
+
+#: mygallery/mygallerymain.php:62
+#: mygallery/mygallerymain.php:137
+#: mygallery/mygallerybrowser.php:227
+msgid "No file was submitted"
+msgstr "Žiadny súbor nebol odoslaný"
+
+#: mygallery/mygallerymain.php:67
+msgid "Uploaded file was no zip file"
+msgstr "Načítaný súbor nebol v ZIP formáte"
+
+#: mygallery/mygallerymain.php:77
+#: mygallery/mygallerymain.php:266
+#: mygallery/mygallerymain.php:268
+msgid "Unable to create directory "
+msgstr "Nie je možné vytvoriť priečinok"
+
+#: mygallery/mygallerymain.php:80
+#: mygallery/mygallerymain.php:112
+#: mygallery/mygallerymain.php:114
+#: mygallery/mygallerymain.php:262
+msgid "Directory"
+msgstr "priečinok"
+
+#: mygallery/mygallerymain.php:80
+msgid "exists"
+msgstr "existuje"
+
+#: mygallery/mygallerymain.php:85
+#: mygallery/mygallerymain.php:156
+msgid "Unable to unzip!"
+msgstr "Nie je možné rozbaliť ZIP archív!"
+
+#: mygallery/mygallerymain.php:89
+#: mygallery/mygallerymain.php:267
+#: mygallery/mygallerymain.php:269
+msgid "Unable to set permissions for directory "
+msgstr "Nie je možné nastaviť povolenia pre priečinok"
+
+#: mygallery/mygallerymain.php:90
+msgid "Unable to unlink file "
+msgstr "Nie je možné vymazať súbor"
+
+#: mygallery/mygallerymain.php:96
+#: mygallery/mygallerymain.php:127
+msgid "Gallery is ready!"
+msgstr "Galérie je hotová!"
+
+#: mygallery/mygallerymain.php:96
+#: mygallery/mygallerymain.php:127
+msgid "Use"
+msgstr "Použiť"
+
+#: mygallery/mygallerymain.php:96
+#: mygallery/mygallerymain.php:127
+msgid "to insert gallery into a page"
+msgstr "vložiť galériu do stránky"
+
+#: mygallery/mygallerymain.php:106
+msgid "No folder name submitted"
+msgstr "Nebolo odovzdané meno priečinka"
+
+#: mygallery/mygallerymain.php:112
+#: mygallery/mygallerymain.php:114
+msgid "doesn&#96;t exist"
+msgstr "neexistuje"
+
+#: mygallery/mygallerymain.php:139
+msgid "No gallery selected"
+msgstr "Nebola vybraná žiadna galéria"
+
+#: mygallery/mygallerymain.php:148
+msgid "Unable to creat temporary directory "
+msgstr "Nie je možné vytvoriť dočasný priečinok"
+
+#: mygallery/mygallerymain.php:149
+msgid "Unable to set permissions for temporary directory "
+msgstr "Nie je možné zmeniť povolenia pre dočasný priečinok"
+
+#: mygallery/mygallerymain.php:160
+#: mygallery/mygallerymain.php:187
+msgid "Unable to remove file "
+msgstr "Nie je možné vymazať súbor"
+
+#: mygallery/mygallerymain.php:194
+msgid "Unable to unlink directory "
+msgstr "Nie je možné vymazať priečinok"
+
+#: mygallery/mygallerymain.php:203
+#: mygallery/mygallerybrowser.php:235
+msgid "Unable to move file "
+msgstr "Nie je možné premiestniť súbor"
+
+#: mygallery/mygallerymain.php:208
+#: mygallery/mygallerymain.php:371
+#: mygallery/mygallerymain.php:402
+#: mygallery/mygallerybrowser.php:238
+msgid "Unable to set permissions for file "
+msgstr "Nie je možné zmeniť povolenia pre súbor"
+
+#: mygallery/mygallerymain.php:216
+#: mygallery/mygallerybrowser.php:249
+msgid "Unable to unlink unsupported file "
+msgstr "Nie je možné vymazať nepodporovaný formát súboru"
+
+#: mygallery/mygallerymain.php:218
+#: mygallery/mygallerybrowser.php:245
+msgid "Not a supported file format"
+msgstr "Nepodporovaný formát súboru"
+
+#: mygallery/mygallerymain.php:220
+msgid "Picture(s) added to gallery!"
+msgstr "Obrázok/obrázky bol/i pridané do galérie."
+
+#: mygallery/mygallerymain.php:228
+msgid "Unable to creat folder for thumbnails "
+msgstr "Nie je možné vytvoriť priečinok pre miniatúry"
+
+#: mygallery/mygallerymain.php:229
+msgid "Unable to set permissions for thumbnail folder "
+msgstr "Nie je možné zmeniť povolenia pre priečinok s miniatúrami"
+
+#: mygallery/mygallerymain.php:233
+msgid "Create the folder <i>tumbs</i> in your gallery folder first."
+msgstr "Vytvoriť najprv priečinok <em>tumbs</em> v priečinku pre galériu."
+
+#: mygallery/mygallerymain.php:262
+msgid "exists!"
+msgstr "existuje!"
+
+#: mygallery/mygallerymain.php:299
+msgid "myGallery Generator"
+msgstr "Tvorba obrázkového katalógu"
+
+#: mygallery/mygallerymain.php:304
+msgid "Select operation"
+msgstr "Vybrať operáciu"
+
+#: mygallery/mygallerymain.php:306
+msgid "Upload a zip file with images from my harddrive:"
+msgstr "Načítať ZIP archív s obrázkami z pevného disku:"
+
+#: mygallery/mygallerymain.php:308
+msgid "Import pictures from a folder on the server:"
+msgstr "Importovať obrázky z priečinka na servere:"
+
+#: mygallery/mygallerymain.php:309
+msgid "Upload to gallery"
+msgstr "Načítať do galérie"
+
+#: mygallery/mygallerymain.php:316
+msgid "a single picture "
+msgstr "jeden obrázok"
+
+#: mygallery/mygallerymain.php:316
+msgid " or zip file"
+msgstr " alebo zip archív"
+
+#: mygallery/mygallerymain.php:319
+msgid "Create"
+msgstr "Vytvoriť"
+
+#: mygallery/mygallerymain.php:319
+msgid "as new, empty gallery"
+msgstr "ako novú, prázdnu galériu"
+
+#: mygallery/mygallerymain.php:323
+msgid "submit"
+msgstr "odoslať"
+
+#: mygallery/mygallerymain.php:337
+msgid "Gallery"
+msgstr "Galéria"
+
+#: mygallery/mygallerymain.php:341
+msgid "Gallery was created!"
+msgstr "Galéria bola vytvorená!"
+
+#: mygallery/mygallerymain.php:375
+#: mygallery/mygallerymain.php:405
+msgid "Unable to remove unsupported file "
+msgstr "Nie je možné odsprániť nepodporovaný súbor."
+
+#: mygallery/mygallerymain.php:437
+msgid "save gallerys in folder:"
+msgstr "uložiť galérie do priečinku:"
+
+#: mygallery/mygalleryfunctions.php:450
+msgid "Unable to change permissions for picture "
+msgstr "Nie je možné zmeniť povolenia pre obrázok"
+
+#: mygallery/mygalleryfunctions.php:503
+msgid "Unidentified"
+msgstr "Neznámy"
+
+#: mygallery/mygalleryfunctions.php:503
+msgid "Manual"
+msgstr "Ručne"
+
+#: mygallery/mygalleryfunctions.php:503
+msgid "Normal"
+msgstr "Normálne"
+
+#: mygallery/mygalleryfunctions.php:503
+msgid "Aperture priority"
+msgstr "Priorita clony"
+
+#: mygallery/mygalleryfunctions.php:503
+msgid "Shutter priority"
+msgstr "Priorita otáčavej clony"
+
+#: mygallery/mygalleryfunctions.php:503
+msgid "Creative"
+msgstr "Tvorivý"
+
+#: mygallery/mygalleryfunctions.php:503
+msgid "Action"
+msgstr "Akcia"
+
+#: mygallery/mygalleryfunctions.php:503
+msgid "Portrait mode"
+msgstr "Portrait mód"
+
+#: mygallery/mygalleryfunctions.php:503
+msgid "Landscape mode"
+msgstr "Landscape mód"
+
+#: mygallery/mygalleryfunctions.php:504
+msgid "Metadata"
+msgstr "Meta informácie"
+
+#: mygallery/mygalleryfunctions.php:509
+#: mygallery/mygalleryexif.php:77
+msgid "Make"
+msgstr "Vytvoriť"
+
+#: mygallery/mygalleryfunctions.php:513
+#: mygallery/mygalleryexif.php:78
+msgid "Model"
+msgstr "Model"
+
+#: mygallery/mygalleryfunctions.php:517
+#: mygallery/mygalleryexif.php:79
+msgid "Exposure Time"
+msgstr "Čas expozície"
+
+#: mygallery/mygalleryfunctions.php:521
+#: mygallery/mygalleryexif.php:86
+msgid "Shutter Speed"
+msgstr "Rýchlosť otáčavej clony"
+
+#: mygallery/mygalleryfunctions.php:525
+#: mygallery/mygalleryexif.php:80
+msgid "Aperture FNumber"
+msgstr "Číslo F"
+
+#: mygallery/mygalleryfunctions.php:529
+#: mygallery/mygalleryexif.php:81
+msgid "Focal Length"
+msgstr "Dĺžka ohniska"
+
+#: mygallery/mygalleryfunctions.php:533
+#: mygallery/mygalleryexif.php:82
+msgid "ISO Speed Ratings"
+msgstr "ISO citlivosť"
+
+#: mygallery/mygalleryfunctions.php:537
+#: mygallery/mygalleryexif.php:84
+msgid "Date and Time"
+msgstr "Dátum a čas vytvorenia snímky"
+
+#: mygallery/mygalleryfunctions.php:544
+#: mygallery/mygalleryexif.php:85
+msgid "Exposure Program"
+msgstr "Expozičný program"
+
+#: mygallery/mygalleryfunctions.php:548
+msgid "no"
+msgstr "nie"
+
+#: mygallery/mygalleryfunctions.php:551
+msgid "yes"
+msgstr "áno"
+
+#: mygallery/mygalleryfunctions.php:555
+#: mygallery/mygalleryexif.php:83
+msgid "Flash"
+msgstr "Blesk"
+
+#: mygallery/mygalleryexif.php:68
+msgid "Show Exif Informations"
+msgstr "Ukázať Exif Informácie"
+
+#: mygallery/mygalleryexif.php:69
+msgid "Enable Exif for gallery pictures"
+msgstr "Povoliť Exif pre obrázky v galérii"
+
+#: mygallery/mygalleryexif.php:70
+msgid "Skip empty values"
+msgstr "Preskočiť prázdne hodnoty"
+
+#: mygallery/mygalleryexif.php:76
+msgid "Show values for"
+msgstr "Ukázať hodnoty pre"
+
+#: mygallery/mygallerybrowser.php:68
+msgid "myGallery Browser"
+msgstr "myGallery prehliadač"
+
+#: mygallery/mygallerybrowser.php:78
+msgid "select gallery"
+msgstr "vyberte galériu"
+
+#: mygallery/mygallerybrowser.php:85
+msgid "show upload Form"
+msgstr "Ukázať formulár pre načítanie"
+
+#: mygallery/mygallerybrowser.php:86
+msgid "hide upload Form"
+msgstr "Skryť formulár pre načítanie"
+
+#: mygallery/mygallerybrowser.php:87
+msgid "show myGallery Tags"
+msgstr "ukázať myGallery značky"
+
+#: mygallery/mygallerybrowser.php:88
+msgid "hide myGallery Tags"
+msgstr "skryť myGallery značky"
+
+#: mygallery/mygallerybrowser.php:112
+msgid "Upload a picture"
+msgstr "Načítať obrázok"
+
+#: mygallery/mygallerybrowser.php:113
+msgid "upload"
+msgstr "načítať"
+
+#: mygallery/mygallerybrowser.php:119
+msgid "gallery overview"
+msgstr "prehľad galérie"
+
+#: mygallery/mygallerybrowser.php:120
+msgid "gallery "
+msgstr "galéria"
+
+#: mygallery/mygallerybrowser.php:121
+msgid "inlinegallery"
+msgstr "vložená galéria (inlinegallery)"
+
+#: mygallery/mygallerybrowser.php:128
+msgid "Align"
+msgstr "Zarovnanie"
+
+#: mygallery/mygallerybrowser.php:128
+msgid "Popup"
+msgstr "Vyskakovacie okno"
+
+#: mygallery/mygallerybrowser.php:128
+msgid "Size"
+msgstr "Veľkosť"
+
+#: mygallery/mygallerybrowser.php:128
+msgid "Tag"
+msgstr "Značka"
+
+#: mygallery/mygallerybrowser.php:139
+#: mygallery/mygallerybrowser.php:148
+#: mygallery/mygallerybrowser.php:154
+msgid "none"
+msgstr "žiadne"
+
+#: mygallery/mygallerybrowser.php:140
+msgid "left"
+msgstr "left"
+
+#: mygallery/mygallerybrowser.php:141
+msgid "right"
+msgstr "right"
+
+#: mygallery/mygallerybrowser.php:142
+msgid "leftclear"
+msgstr "leftclear"
+
+#: mygallery/mygallerybrowser.php:143
+msgid "rightclear"
+msgstr "rightclear"
+
+#: mygallery/mygallerybrowser.php:149
+msgid "fullscreen"
+msgstr "na celú obrazovku"
+
+#: mygallery/mygallerybrowser.php:150
+msgid "gal"
+msgstr "gal"
+
+#: mygallery/mygallerybrowser.php:155
+msgid "thumb"
+msgstr "miniatúra"
+
+#: mygallery/mygallerybrowser.php:156
+msgid "scaled by"
+msgstr "zmena veľkosti podľa"
+
+#: mygallery/mygallerybrowser.php:159
+msgid "picture"
+msgstr "obrázok"
+
+#: mygallery/mygallerybrowser.php:161
+msgid "link"
+msgstr "odkaz"
+
+#: mygallery/mygallerybrowser.php:161
+msgid "Your link text"
+msgstr "Text vášho odkazu"
+
+#: mygallery/mygallerybrowser.php:254
+msgid "Picture added to gallery."
+msgstr "Obrázok bol pridaný do galérie."
+

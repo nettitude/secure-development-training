@@ -1,0 +1,286 @@
+/* 3d style for myGallery  */
+
+.mypicbox {
+	margin-bottom: 30px;
+	margin-top: 10px;
+	}
+
+.mypicup {
+	}
+
+.mypicture {
+	padding: 0px;
+	margin: auto;
+
+}
+
+.mypictureborder {
+	background: url("images/shadow.gif") no-repeat bottom right;
+	padding-right:14px;
+	padding-bottom:2px;
+	_padding-right:5px;
+}
+
+
+.mypictureimg {
+	background: #ffffff;
+	border: 1px solid  #999999;
+	padding: 3px;
+}
+
+.myfooter {
+	text-align: center;
+	font-family: Verdana;
+	font-size: 0.8em;
+}
+
+.myfooter span {
+	background: #ffffcc;
+	border: 1px solid #eeeeee;
+}
+
+.mypicback {
+	float: left;
+}
+
+.mypicfor {
+	float: right;
+}
+
+.mypicsgallery {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.mygallpic {
+	margin-bottom:0px;
+	
+}
+
+.mypicsgallery a img {
+	border: 2px solid  #ffffff;
+	padding: 1px;
+}
+
+.mypicsgallery a:hover img {
+	border: 2px solid  #CC0000;
+	padding: 1px;
+}
+
+
+.myrandompic img {
+	padding:5px;
+	border: 1px solid #C6C9CD;
+	background: #ffffff;
+}
+.mygalleryoverview {
+	margin-top: 10px;
+}
+
+.mygallerygallery {
+	height: 130px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #cccccc;
+}
+
+.mygallerynames {
+	text-align: left;
+ 	font-family: "Century Gothic",Verdana;
+ 	font-weight: bold;
+	margin:0px;
+	padding:0px;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.mygallerypreviewpics {
+	float: left;
+	margin-right: 12px;
+}
+.mygallerydescription {
+	text-align: left;
+	font-size: 1em;
+}
+
+.mypicboxentry {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mypictureentry {
+	padding: 0px;
+	margin: auto;
+}
+
+.mypictureentryborder {
+	background: url("images/shadow.gif") no-repeat bottom right;
+	padding-right:14px;
+	padding-bottom:2px;
+	_padding-right:5px;
+	
+}
+
+.mypictureentryimg {
+	background: #ffffff;
+	border: 1px solid  #999999;
+	padding: 3px;
+}
+
+.mypicsgalleryentry {
+	text-align: center;
+}
+
+.mygallpicentry {
+	margin-bottom:0px;
+}
+
+.mypicsgalleryentry a img {
+	border: 2px solid  #ffffff;
+	padding: 1px;
+}
+
+.mypicsgalleryentry a:hover img {
+	border: 2px solid  #CC0000;
+	padding: 1px;
+}
+
+.myinlinepicture {
+	text-align:center;
+	margin:auto;
+	margin-top:10px;
+}
+
+.myinlinepictureleft {
+	float:left;
+	padding-right:10px;
+	margin-right:16px;
+}
+
+.myinlinepictureleftclear {
+	float:left;
+	padding-right:10px;
+	margin-right:16px;
+	padding-top: 10px;
+}
+
+.myinlinepictureright {
+	float:right;
+	padding-left:10px;
+	margin-right:14px;
+}
+
+.myinlinepicturerightclear {
+	float:right;
+	padding-left:10px;
+	margin-right:14px;
+	padding-top: 10px;
+}
+
+.myinlinepicdescription {
+	text-align:center;
+	font-size: 0.8em;
+	font-family: Verdana;
+	
+}
+
+.myinlinepicdescription span {
+	background: #ffffcc;
+	border: 1px solid #eeeeee;
+}
+
+.myinlinepictureimg {
+	background: #ffffff;
+	border: 1px solid  #999999;
+	padding: 3px;
+	
+}
+
+.myinlineborder {
+	background: url("images/shadow.gif") no-repeat bottom right;
+	padding-right:14px;
+	padding-bottom:2px;
+	//padding-right:5px;
+}
+
+.mygallerypreviewpics img {
+	border:0px;
+}
+
+.gallerynav {
+	
+}
+
+.galleryfor {
+	float: right;
+}
+
+.galleryback {
+	float: left;
+}
+
+.exifmetalabel {
+	font-family: Verdana;
+	font-size: 1em;
+}
+
+.exifbox {
+	border: 1px solid #cccccc;
+	font-family: Verdana;
+	font-size: 0.85em;
+}
+
+.exiflabelone {
+	background: #eeeeee;
+	font-weight:bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.exiflabeltwo {
+	font-weight:bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.exifdataone {
+	font-weight:lighter;
+	
+}
+
+.exifdatatwo {
+	font-weight:lighter;
+}
+
+.thumbsnav {
+	
+}
+
+.thumbsfor {                                          
+	float: right;
+}
+
+.thumbsback {
+	float: left;
+}
+
+.thumbscounter {
+	color: #666666;
+	text-align: center;
+	font-size: 0.7em;
+	font-family: 'Verdana', 'Geneva', sans-serif;
+}
+
+.mypiccounter {
+	color: #666666;
+	text-align: center;
+	font-size: 0.7em;
+	font-family: 'Verdana', 'Geneva', sans-serif;
+}
+
+.galcounter {
+	color: #666666;
+	text-align: center;
+	font-size: 0.7em;
+	font-family: 'Verdana', 'Geneva', sans-serif;
+}
