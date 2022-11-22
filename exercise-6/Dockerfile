@@ -6,9 +6,9 @@ COPY conf/resolv.conf /etc/resolv.conf
 
 # Install Mariadb
 RUN apt-get update
-RUN apt-get install -y dialog apt-utils
+RUN apt-get install -y dialog apt-utils --force-yes
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
-RUN apt-get install -y mariadb-server
+RUN apt-get install -y mariadb-server --force-yes
 
 # Configure MariaDB
 COPY conf/wordpress.sql /tmp/wordpress.sql
