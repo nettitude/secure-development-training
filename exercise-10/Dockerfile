@@ -25,4 +25,5 @@ RUN chown -R www-data:www-data /var/www/html
 RUN chmod -R +r /var/www/html
 
 COPY conf/startup.sh /root/startup.sh
+RUN php composer.phar require mikehaertl/phpwkhtmltopdf
 CMD ["sh","/root/startup.sh"]

@@ -21,4 +21,4 @@ RUN chown -R www-data:www-data /var/www/html
 RUN chmod -R +r /var/www/html
 
 COPY conf/startup.sh /root/startup.sh
-CMD ["sh","/root/startup.sh"]
+CMD ["bash","/root/startup.sh"]
