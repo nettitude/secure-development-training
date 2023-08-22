@@ -5,7 +5,7 @@ COPY src/ /var/www/html/
 COPY conf/resolv.conf /etc/resolv.conf
 
 # Install Mariadb
-RUN apt-get update
+RUN echo 'deb http://archive.debian.org/debian jessie main' > /etc/apt/sources.list && apt-get update
 RUN apt-get install -y dialog apt-utils --force-yes
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 RUN apt-get install -y mariadb-server --force-yes
